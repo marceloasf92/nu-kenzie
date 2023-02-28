@@ -1,0 +1,81 @@
+.entryPage {
+  background-color: #212529;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.informacoesEntryPage {
+  width: 347px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.informacoesEntryPage h1 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 48px;
+  color: #ffffff;
+  width: 347px;
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+
+.informacoesEntryPage span {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.informacoesEntryPage button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #ffffff;
+  width: 241px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.logoKenzie {
+  background-image: url(../../logoKenzieBranco.png);
+  height: 100px;
+  width: 250px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+}
+.informacoesEntryPage button:hover {
+  background: #e34981;
+  color: #f8f9fa;
+  border: 2px solid #e34981;
+}
+
+@media only screen and (min-width: 1024px) {
+  .logoKenzie {
+    background-size: 150px;
+    height: 30px;
+  }
+
+  .backgroundEntryPage {
+    width: 600px;
+    height: 600px;
+    background-image: url(../../kenzieback.png);
+    background-repeat: no-repeat;
+  }
+}

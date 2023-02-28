@@ -1,0 +1,183 @@
+.container-List {
+  max-width: 320px;
+}
+
+.container-Buttons .Todos {
+  border-radius: 8px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  width: 60px;
+  height: 40px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #868e96;
+  cursor: pointer;
+}
+
+.Todos:hover {
+  color: #ffffff;
+  background-color: #868e96;
+  border: 1.4px solid #868e96;
+}
+
+.Todos:active {
+  color: #ffffff;
+  background-color: #fd377e;
+  border: 1.4px solid #fd377e;
+}
+
+.Entrada,
+.Saida {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #868e96;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 10.5px 15px;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+}
+
+.Entrada:hover,
+.Saida:hover {
+  color: #ffffff;
+  background-color: #868e96;
+  border: 1.4px solid #868e96;
+}
+
+.Entrada:active,
+.Saida:active {
+  color: #ffffff;
+  background-color: #fd377e;
+  border: 1.4px solid #fd377e;
+}
+
+.container-List .divEntrada {
+  width: 4px;
+  height: 87px;
+  background: #03b898;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.container-List .divSaida {
+  width: 4px;
+  height: 87px;
+  background: #e9ecef;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.container-List ul {
+  padding-left: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 500px;
+}
+
+.container-Buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.container-Buttons h2 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.container-Vazio {
+  margin-top: 27px;
+  max-width: 320px;
+}
+
+.container-Vazio p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  color: #868e96;
+}
+
+.container-Vazio-Secundario {
+  margin-top: 27px;
+  max-width: 320px;
+  height: 87px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  display: flex;
+}
+
+.canto {
+  background: #e9ecef;
+  border-radius: 4px 0px 0px 4px;
+  width: 4px;
+  height: 87px;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  margin-left: 11px;
+  justify-content: space-evenly;
+}
+
+.linhaUm {
+  background: #e9ecef;
+  min-width: 300px;
+  height: 13px;
+}
+
+.linhaDois {
+  background: #e9ecef;
+  width: 76px;
+  height: 13px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container-List {
+    min-width: 460px;
+  }
+
+  .container-Buttons {
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .container-Buttons .Todos {
+    width: 69px;
+  }
+
+  .Entrada,
+  .Saida {
+    width: 87px;
+  }
+
+  .linhaUm {
+    min-width: 330px;
+  }
+
+  .container-Vazio {
+    min-width: 460px;
+  }
+
+  .descricao {
+    min-width: 300px;
+  }
+}

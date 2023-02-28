@@ -1,0 +1,102 @@
+.container-Header {
+  min-width: 375px;
+  background: #f8f9fa;
+  height: 88px;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+.container-Logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0 20px;
+}
+
+.logoKenziePreto {
+  background-image: url(../../Nu\ Kenzie.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 125px;
+  height: 50px;
+  display: flex;
+}
+
+.container-Header button {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #868e96;
+  border: 1.4px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #e9ecef;
+  padding: 10.5px 15px;
+  cursor: pointer;
+}
+
+.container-Header button:hover {
+  color: #ffffff;
+  background-color: #868e96;
+  border: 1.4px solid #868e96;
+}
+
+.container-Header button:active {
+  color: #ffffff;
+  background-color: #fd377e;
+  border: 1.4px solid #fd377e;
+}
+
+.container-Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 39px;
+  min-width: 375px;
+}
+
+aside {
+  max-width: 320px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container-Logo {
+    margin-left: 230px;
+    margin-right: 230px;
+  }
+
+  .container-Main {
+    justify-content: center;
+    margin-top: 39px;
+    align-items: flex-start;
+  }
+
+  main {
+    margin: 0 auto;
+  }
+  main section {
+    margin-right: 29px;
+    margin-top: 0;
+  }
+
+  main aside {
+    margin-left: 29px;
+  }
+
+  main aside {
+    min-width: 460px;
+  }
+
+  .container-Main {
+    flex-direction: row;
+  }
+
+  .container-Buttons {
+    margin-top: 0;
+  }
+}
